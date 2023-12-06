@@ -42,9 +42,8 @@ public class FoodProductController {
     public boolean updateProduct(@PathVariable("id") int id,
             @RequestParam(required = false) String name,
             @RequestParam(required = false) String description,
-            @RequestParam(required = false) int price,
-            @RequestParam(required = false) int quantity) {
-        return productService.updateFoodProduct(id, name, description, price, quantity);
+            @RequestParam(required = false) int price) {
+        return productService.updateFoodProduct(id, name, description, price);
     }
 
     @GetMapping(path = "/")

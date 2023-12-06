@@ -53,9 +53,9 @@ public class CliController {
         String description = scanner.nextLine();
         System.out.println("Price: ");
         double price = scanner.nextDouble();
+        scanner.nextLine();
         System.out.println("SKU: ");
         String SKU = scanner.nextLine();
-        scanner.nextLine();
         System.out.println("Category: ");
         String category = scanner.nextLine();
 

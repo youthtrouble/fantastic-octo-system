@@ -39,8 +39,7 @@ public class FoodProductDao {
             int id,
             String SKU,
             String description,
-            double price,
-            int quantity) {
+            double price) {
 
         FoodProduct product = foodProductRepository.findProductById(id)
                 .orElseThrow(
