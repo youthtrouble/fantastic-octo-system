@@ -1,5 +1,12 @@
 package com.JavaaAssessment.SeptDecAssessment.Models.request;
 
+/**
+ * Request class for login
+ * This class is used to get the username and password from the user
+ * The username and password are used to authenticate the user
+ * The username and password are passed in the request body as a JSON object
+ * The username and password are used to authenticate the user
+ */
 public class LoginReq {
     private String username;
     private String password;

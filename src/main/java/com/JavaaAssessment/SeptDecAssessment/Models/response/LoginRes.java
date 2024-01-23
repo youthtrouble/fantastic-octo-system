@@ -1,20 +1,20 @@
 package com.JavaaAssessment.SeptDecAssessment.Models.response;
 
 public class LoginRes {
-    private String email;
+    private String userName;
     private String token;
 
-    public LoginRes(String email, String token) {
-        this.email = email;
+    public LoginRes(String userName, String token) {
+        this.userName = userName;
         this.token = token;
     }
 
-    public String getEmail() {
-        return email;
+    public String getUserName() {
+        return userName;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
     public String getToken() {
