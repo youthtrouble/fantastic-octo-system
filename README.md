@@ -26,9 +26,7 @@
 - **Deployed Client-side  Application on Netlify:** [https://oop-assessment.netlify.app/](https://oop-assessment.netlify.app/)
 
 
-#####  Assignment Template Form
-
-###### Assignment Functionality Completed:
+###### Functionality Completed:
 
 ###### Food product class implemented
 
